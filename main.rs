@@ -8,6 +8,10 @@ fn client1(n1: i32) {
     println!("клиент 1 {}", n1);
 }
 
+fn client2(n1: i32) {
+    println!("клиент 1 {}", n1);
+}
+
 fn main() {
     println!("Введите первое число");
     let mut s1: String = String::new();
