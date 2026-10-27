@@ -1,0 +1,10 @@
+[package]
+name = "git_lr"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "git_lr"
+path = "main.rs"
