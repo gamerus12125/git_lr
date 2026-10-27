@@ -17,4 +17,5 @@ fn main() {
     let num1: i32 = s1.strip_suffix("\n").unwrap().parse().unwrap();
     let num2: i32 = s2.strip_suffix("\n").unwrap().parse().unwrap();
     println!("Деление {}", num1 / num2);
+    println!("Умножение {}", calc(num1, num2));
 }
