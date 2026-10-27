@@ -7,6 +7,7 @@ fn calc(n1: i32, n2: i32) -> i32 {
 fn main() {
     println!("Введите первое число");
     let mut s1: String = String::new();
+    println!("Введите второе число");
     let mut s2: String = String::new();
     stdin().read_line(&mut s1).unwrap();
     stdin().read_line(&mut s2).unwrap();
