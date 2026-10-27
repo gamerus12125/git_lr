@@ -13,5 +13,5 @@ fn main() {
     stdin().read_line(&mut s2).unwrap();
     let num1: i32 = s1.strip_suffix("\n").unwrap().parse().unwrap();
     let num2: i32 = s2.strip_suffix("\n").unwrap().parse().unwrap();
-    println!("Деление {}", num1 / num2);
+    println!("Деление двух чисел {}", num1 / num2);
 }
